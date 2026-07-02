@@ -1,14 +1,15 @@
 # 🥩 Traductor de Cortes de Carne
 
-Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina y Estados Unidos.
+Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina y Estados Unidos. Con más de 90 cortes catalogados.
 
 ## 🌟 Características
 
-- **Multi-país**: Compara cortes entre 4 países (Brasil, Chile, Argentina, USA)
-- **Interfaz intuitiva**: Diseño glassmorphism moderno y responsivo
+- **90+ Cortes**: Base de datos completa con más de 90 cortes de carne diferentes
+- **4 Países**: Compara cortes entre Brasil, Chile, Argentina y USA
+- **Compartir en WhatsApp**: Comparte las equivalencias directamente en WhatsApp
 - **Rápido y ligero**: Sin dependencias externas, 100% vanilla JavaScript
 - **SEO optimizado**: Meta tags, Open Graph, Twitter Cards, y JSON-LD
-- **PWA Ready**: Manifest.json incluido
+- **PWA Ready**: Manifest.json incluido para instalar como app
 
 ## 🚀 Demo
 
@@ -47,45 +48,17 @@ meat-translator/
 │       └── app.js      # Lógica de traducción
 ```
 
-## 🥩 Cortes Incluidos
+## 🥩 Cortes20 cortes)
+Picanha, Filé Mignon, Contrafilé, Fraldinha, Maminha, Alcatra, Coxão Mole, Coxão Duro, Lagarto, Patinho, Músculo, Acém, Paleta, Costela, Cupim, Peito, Aba de Filé, Ancho, Bisteca, Baby Beef
 
-### Brasil (Português)
-- Picanha
-- Lagarto
-- Músculo
-- Maminha
-- Fraldinha
-- Contrafilé
-- Alcatra
-- Filé Mignon
+### Chile (20 cortes)
+Punta de Ganso, Filete, Lomo Vetado, Lomo Liso, Entraña, Entraña Fina, Punta de Picana, Posta Rosada, Posta Negra, Posta Paleta, Asado de Tira, Osobuco, Tapapecho, Costillar, Pecho, Plateada, Chuleta, Huachalomo, Sobrecostilla, Malaya
 
-### Chile (Español)
-- Punta de Ganso
-- Posta Negra
-- Osobuco
-- Punta de Picana
-- Entraña
-- Lomo Vetado
-- Asado de Tira
-- Filete
+### Argentina (25 cortes)
+Tapa de Cuadril, Lomo, Bife de Chorizo, Bife Ancho, Ojo de Bife, Vacío, Entraña, Entraña Fina, Colita de Cuadril, Cuadril, Bola de Lomo, Cuadrada, Peceto, Nalga, Asado de Tira, Costilla, Osobuco, Aguja, Paleta, Pecho, Falda, Matambre, Marucha, T-Bone, Tapa de Asado
 
-### Argentina (Español)
-- Tapa de Cuadril
-- Peceto
-- Osobuco
-- Colita de Cuadril
-- Vacío
-- Bife de Chorizo
-- Asado de Tira
-- Lomo
-
-### USA (English)
-- Sirloin Cap / Rump Cap
-- Eye of Round
-- Shin
-- Bottom Sirloin / Tri-tip
-- Flank Steak
-- Ribeye / Striploin
+### USA (26 cortes)
+Tenderloin, Sirloin Cap, Strip Loin, NY Strip, Ribeye, Ribeye Steak, Top Sirloin, Bottom Sirloin, Tri-tip, Flank Steak, Skirt Steak, Bottom Round, Top Round, Eye of Round, Knuckle, Sirloin Tip, Short Ribs, Ribs, Shin, Shank, Chuck, Chuck Eye Roll, Shoulder Clod, Brisket, Plate, T-Bone Steak, Porterhouse, Rib Cap, Spinalis, Rose Meat, Humptriploin
 - Top Sirloin
 - Tenderloin
 
@@ -100,20 +73,10 @@ meat-translator/
 
 MIT License - Siéntete libre de usar este proyecto como quieras.
 
-## 🤝 Contribuciones
+## 📧 Contribuciones
 
-Las contribuciones son bienvenidas. Por favor:
-
-1. Haz fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/NuevoCorte`)
-3. Commit tus cambios (`git commit -m 'Agregar nuevo corte'`)
-4. Push a la rama (`git push origin feature/NuevoCorte`)
-5. Abre un Pull Request
-
-## 📧 Contacto
-
-Si tienes preguntas o sugerencias, abre un issue en GitHub.
+Abre un PR o un issue.
 
 ---
 
-Hecho con ❤️ para los amantes de la carne
+Hecho con hambre para los amantes de la carne 🥩.
