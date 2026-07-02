@@ -3,112 +3,137 @@ document.addEventListener('DOMContentLoaded', () => {
     br: {
       name: " 🇧🇷 Brasil",
       cuts: {
-        'Picanha': { cl: 'Punta de Ganso', ar: 'Tapa de Cuadril', us: 'Sirloin Cap / Rump Cap' },
-        'Filé Mignon': { cl: 'Filete', ar: 'Lomo', us: 'Tenderloin' },
-        'Contrafilé': { cl: 'Lomo Vetado', ar: 'Bife de Chorizo', us: 'Strip Loin / NY Strip' },
-        'Fraldinha': { cl: 'Entraña', ar: 'Vacío', us: 'Flank Steak' },
-        'Maminha': { cl: 'Punta de Picana', ar: 'Colita de Cuadril', us: 'Bottom Sirloin / Tri-tip' },
-        'Alcatra': { cl: 'Lomo Liso', ar: 'Cuadril', us: 'Top Sirloin' },
-        'Coxão Mole': { cl: 'Posta Rosada', ar: 'Bola de Lomo', us: 'Bottom Round' },
-        'Coxão Duro': { cl: 'Posta Negra', ar: 'Cuadrada', us: 'Top Round' },
-        'Lagarto': { cl: 'Posta Negra', ar: 'Peceto', us: 'Eye of Round' },
-        'Patinho': { cl: 'Posta Rosada', ar: 'Cuadrada', us: 'Knuckle / Sirloin Tip' },
-        'Músculo': { cl: 'Osobuco', ar: 'Osobuco', us: 'Shin / Shank' },
-        'Acém': { cl: 'Tapapecho', ar: 'Aguja', us: 'Chuck' },
-        'Paleta': { cl: 'Paleta', ar: 'Paleta', us: 'Shoulder Clod' },
-        'Costela': { cl: 'Costillar', ar: 'Costilla / Asado', us: 'Short Ribs' },
-        'Cupim': { cl: 'Sobrecostilla', ar: 'Cupim', us: 'Hump (Zebu)' },
-        'Peito': { cl: 'Pecho', ar: 'Pecho', us: 'Brisket' },
-        'Aba de Filé': { cl: 'Entraña Fina', ar: 'Entraña Fina', us: 'Skirt Steak' },
-        'Ancho': { cl: 'Lomo Vetado', ar: 'Bife Ancho', us: 'Ribeye' },
-        'Bisteca': { cl: 'Chuleta', ar: 'T-Bone', us: 'T-Bone Steak' },
-        'Baby Beef': { cl: 'Filete Tornedó', ar: 'Ojo de Bife', us: 'Baby Beef / Veal' },
+        'Picanha': { cl: 'Punta de Ganso', ar: 'Tapa de Cuadril', us: 'Sirloin Cap / Rump Cap', es: 'Rabillo de Cadera' },
+        'Filé Mignon': { cl: 'Filete', ar: 'Lomo', us: 'Tenderloin', es: 'Solomillo' },
+        'Contrafilé': { cl: 'Lomo Vetado', ar: 'Bife de Chorizo', us: 'Strip Loin / NY Strip', es: 'Lomo Bajo' },
+        'Fraldinha': { cl: 'Entraña', ar: 'Vacío', us: 'Flank Steak', es: 'Falda' },
+        'Maminha': { cl: 'Punta de Picana', ar: 'Colita de Cuadril', us: 'Bottom Sirloin / Tri-tip', es: 'Contrafaldilla' },
+        'Alcatra': { cl: 'Lomo Liso', ar: 'Cuadril', us: 'Top Sirloin', es: 'Cadera' },
+        'Coxão Mole': { cl: 'Posta Rosada', ar: 'Bola de Lomo', us: 'Bottom Round', es: 'Contra' },
+        'Coxão Duro': { cl: 'Posta Negra', ar: 'Cuadrada', us: 'Top Round', es: 'Tapa' },
+        'Lagarto': { cl: 'Posta Negra', ar: 'Peceto', us: 'Eye of Round', es: 'Redondo' },
+        'Patinho': { cl: 'Posta Rosada', ar: 'Cuadrada', us: 'Knuckle / Sirloin Tip', es: 'Babilla' },
+        'Músculo': { cl: 'Osobuco', ar: 'Osobuco', us: 'Shin / Shank', es: 'Morcillo' },
+        'Acém': { cl: 'Tapapecho', ar: 'Aguja', us: 'Chuck', es: 'Aguja' },
+        'Paleta': { cl: 'Paleta', ar: 'Paleta', us: 'Shoulder Clod', es: 'Espaldilla' },
+        'Costela': { cl: 'Costillar', ar: 'Costilla / Asado', us: 'Short Ribs', es: 'Costillas' },
+        'Cupim': { cl: 'Sobrecostilla', ar: 'Cupim', us: 'Hump (Zebu)', es: 'Sin equivalente (res cebú)' },
+        'Peito': { cl: 'Pecho', ar: 'Pecho', us: 'Brisket', es: 'Pecho' },
+        'Aba de Filé': { cl: 'Entraña Fina', ar: 'Entraña Fina', us: 'Skirt Steak', es: 'Entraña' },
+        'Ancho': { cl: 'Lomo Vetado', ar: 'Bife Ancho', us: 'Ribeye', es: 'Lomo Alto' },
+        'Bisteca': { cl: 'Chuleta', ar: 'T-Bone', us: 'T-Bone Steak', es: 'Chuletón' },
+        'Baby Beef': { cl: 'Filete Tornedó', ar: 'Ojo de Bife', us: 'Baby Beef / Veal', es: 'Solomillo (corte pequeño)' },
       }
     },
     cl: {
       name: " 🇨🇱 Chile",
       cuts: {
-        'Punta de Ganso': { br: 'Picanha', ar: 'Tapa de Cuadril', us: 'Sirloin Cap / Rump Cap' },
-        'Filete': { br: 'Filé Mignon', ar: 'Lomo', us: 'Tenderloin' },
-        'Lomo Vetado': { br: 'Contrafilé / Ancho', ar: 'Bife de Chorizo / Bife Ancho', us: 'Ribeye / Strip Loin' },
-        'Lomo Liso': { br: 'Alcatra', ar: 'Cuadril', us: 'Top Sirloin' },
-        'Entraña': { br: 'Fraldinha', ar: 'Vacío', us: 'Flank Steak' },
-        'Entraña Fina': { br: 'Aba de Filé', ar: 'Entraña Fina', us: 'Skirt Steak' },
-        'Punta de Picana': { br: 'Maminha', ar: 'Colita de Cuadril', us: 'Bottom Sirloin / Tri-tip' },
-        'Posta Rosada': { br: 'Coxão Mole', ar: 'Bola de Lomo', us: 'Bottom Round' },
-        'Posta Negra': { br: 'Lagarto / Coxão Duro', ar: 'Peceto / Cuadrada', us: 'Eye of Round / Top Round' },
-        'Posta Paleta': { br: 'Paleta', ar: 'Paleta', us: 'Shoulder Clod' },
-        'Asado de Tira': { br: 'Costela', ar: 'Asado de Tira', us: 'Short Ribs' },
-        'Osobuco': { br: 'Músculo', ar: 'Osobuco', us: 'Shin / Shank' },
-        'Tapapecho': { br: 'Acém', ar: 'Aguja', us: 'Chuck' },
-        'Costillar': { br: 'Costela', ar: 'Costilla', us: 'Ribs' },
-        'Pecho': { br: 'Peito', ar: 'Pecho', us: 'Brisket' },
-        'Plateada': { br: 'Peito', ar: 'Falda', us: 'Plate' },
-        'Chuleta': { br: 'Bisteca', ar: 'T-Bone', us: 'T-Bone Steak' },
-        'Huachalomo': { br: 'Acém', ar: 'Chingolo', us: 'Chuck Eye Roll' },
-        'Sobrecostilla': { br: 'Cupim', ar: 'Tapa de Asado', us: 'Rib Cap' },
-        'Malaya': { br: 'Fraldinha', ar: 'Matambre', us: 'Rose Meat' },
+        'Punta de Ganso': { br: 'Picanha', ar: 'Tapa de Cuadril', us: 'Sirloin Cap / Rump Cap', es: 'Rabillo de Cadera' },
+        'Filete': { br: 'Filé Mignon', ar: 'Lomo', us: 'Tenderloin', es: 'Solomillo' },
+        'Lomo Vetado': { br: 'Contrafilé / Ancho', ar: 'Bife de Chorizo / Bife Ancho', us: 'Ribeye / Strip Loin', es: 'Lomo Alto / Lomo Bajo' },
+        'Lomo Liso': { br: 'Alcatra', ar: 'Cuadril', us: 'Top Sirloin', es: 'Cadera' },
+        'Entraña': { br: 'Fraldinha', ar: 'Vacío', us: 'Flank Steak', es: 'Falda' },
+        'Entraña Fina': { br: 'Aba de Filé', ar: 'Entraña Fina', us: 'Skirt Steak', es: 'Entraña' },
+        'Punta de Picana': { br: 'Maminha', ar: 'Colita de Cuadril', us: 'Bottom Sirloin / Tri-tip', es: 'Contrafaldilla' },
+        'Posta Rosada': { br: 'Coxão Mole', ar: 'Bola de Lomo', us: 'Bottom Round', es: 'Contra / Babilla' },
+        'Posta Negra': { br: 'Lagarto / Coxão Duro', ar: 'Peceto / Cuadrada', us: 'Eye of Round / Top Round', es: 'Tapa / Redondo' },
+        'Posta Paleta': { br: 'Paleta', ar: 'Paleta', us: 'Shoulder Clod', es: 'Espaldilla' },
+        'Asado de Tira': { br: 'Costela', ar: 'Asado de Tira', us: 'Short Ribs', es: 'Costillas en Tiras' },
+        'Osobuco': { br: 'Músculo', ar: 'Osobuco', us: 'Shin / Shank', es: 'Morcillo' },
+        'Tapapecho': { br: 'Acém', ar: 'Aguja', us: 'Chuck', es: 'Aguja' },
+        'Costillar': { br: 'Costela', ar: 'Costilla', us: 'Ribs', es: 'Costillas' },
+        'Pecho': { br: 'Peito', ar: 'Pecho', us: 'Brisket', es: 'Pecho' },
+        'Plateada': { br: 'Peito', ar: 'Falda', us: 'Plate', es: 'Pecho Bajo / Falda' },
+        'Chuleta': { br: 'Bisteca', ar: 'T-Bone', us: 'T-Bone Steak', es: 'Chuletón' },
+        'Huachalomo': { br: 'Acém', ar: 'Chingolo', us: 'Chuck Eye Roll', es: 'Aguja Interior' },
+        'Sobrecostilla': { br: 'Cupim', ar: 'Tapa de Asado', us: 'Rib Cap', es: 'Tapa de Costilla' },
+        'Malaya': { br: 'Fraldinha', ar: 'Matambre', us: 'Rose Meat', es: 'Falda Exterior' },
       }
     },
     ar: {
       name: " 🇦🇷 Argentina",
       cuts: {
-        'Tapa de Cuadril': { br: 'Picanha', cl: 'Punta de Ganso', us: 'Sirloin Cap / Rump Cap' },
-        'Lomo': { br: 'Filé Mignon', cl: 'Filete', us: 'Tenderloin' },
-        'Bife de Chorizo': { br: 'Contrafilé', cl: 'Lomo Vetado', us: 'Strip Loin / NY Strip' },
-        'Bife Ancho': { br: 'Ancho', cl: 'Lomo Vetado', us: 'Ribeye' },
-        'Ojo de Bife': { br: 'Ancho', cl: 'Lomo Vetado', us: 'Ribeye Steak' },
-        'Vacío': { br: 'Fraldinha', cl: 'Entraña', us: 'Flank Steak' },
-        'Entraña': { br: 'Fraldinha', cl: 'Entraña', us: 'Skirt Steak (outside)' },
-        'Entraña Fina': { br: 'Aba de Filé', cl: 'Entraña Fina', us: 'Skirt Steak (inside)' },
-        'Colita de Cuadril': { br: 'Maminha', cl: 'Punta de Picana', us: 'Bottom Sirloin / Tri-tip' },
-        'Cuadril': { br: 'Alcatra', cl: 'Lomo Liso', us: 'Top Sirloin' },
-        'Bola de Lomo': { br: 'Coxão Mole', cl: 'Posta Rosada', us: 'Bottom Round' },
-        'Cuadrada': { br: 'Coxão Duro / Patinho', cl: 'Posta Negra', us: 'Top Round / Knuckle' },
-        'Peceto': { br: 'Lagarto', cl: 'Posta Negra', us: 'Eye of Round' },
-        'Nalga': { br: 'Coxão Mole', cl: 'Posta Rosada', us: 'Bottom Round' },
-        'Asado de Tira': { br: 'Costela', cl: 'Asado de Tira', us: 'Short Ribs' },
-        'Costilla': { br: 'Costela', cl: 'Costillar', us: 'Ribs' },
-        'Osobuco': { br: 'Músculo', cl: 'Osobuco', us: 'Shin / Shank' },
-        'Aguja': { br: 'Acém', cl: 'Tapapecho', us: 'Chuck' },
-        'Paleta': { br: 'Paleta', cl: 'Posta Paleta', us: 'Shoulder Clod' },
-        'Pecho': { br: 'Peito', cl: 'Pecho', us: 'Brisket' },
-        'Falda': { br: 'Peito', cl: 'Plateada', us: 'Plate' },
-        'Matambre': { br: 'Fraldinha', cl: 'Malaya', us: 'Rose Meat / Flank' },
-        'Marucha': { br: 'Acém', cl: 'Tapapecho', us: 'Chuck Tender' },
-        'T-Bone': { br: 'Bisteca', cl: 'Chuleta', us: 'T-Bone Steak' },
-        'Tapa de Asado': { br: 'Cupim', cl: 'Sobrecostilla', us: 'Rib Cap / Spinalis' },
+        'Tapa de Cuadril': { br: 'Picanha', cl: 'Punta de Ganso', us: 'Sirloin Cap / Rump Cap', es: 'Rabillo de Cadera' },
+        'Lomo': { br: 'Filé Mignon', cl: 'Filete', us: 'Tenderloin', es: 'Solomillo' },
+        'Bife de Chorizo': { br: 'Contrafilé', cl: 'Lomo Vetado', us: 'Strip Loin / NY Strip', es: 'Lomo Bajo' },
+        'Bife Ancho': { br: 'Ancho', cl: 'Lomo Vetado', us: 'Ribeye', es: 'Lomo Alto' },
+        'Ojo de Bife': { br: 'Ancho', cl: 'Lomo Vetado', us: 'Ribeye Steak', es: 'Lomo Alto' },
+        'Vacío': { br: 'Fraldinha', cl: 'Entraña', us: 'Flank Steak', es: 'Falda' },
+        'Entraña': { br: 'Fraldinha', cl: 'Entraña', us: 'Skirt Steak (outside)', es: 'Entraña' },
+        'Entraña Fina': { br: 'Aba de Filé', cl: 'Entraña Fina', us: 'Skirt Steak (inside)', es: 'Entraña' },
+        'Colita de Cuadril': { br: 'Maminha', cl: 'Punta de Picana', us: 'Bottom Sirloin / Tri-tip', es: 'Contrafaldilla' },
+        'Cuadril': { br: 'Alcatra', cl: 'Lomo Liso', us: 'Top Sirloin', es: 'Cadera' },
+        'Bola de Lomo': { br: 'Coxão Mole', cl: 'Posta Rosada', us: 'Bottom Round', es: 'Contra' },
+        'Cuadrada': { br: 'Coxão Duro / Patinho', cl: 'Posta Negra', us: 'Top Round / Knuckle', es: 'Tapa / Babilla' },
+        'Peceto': { br: 'Lagarto', cl: 'Posta Negra', us: 'Eye of Round', es: 'Redondo' },
+        'Nalga': { br: 'Coxão Mole', cl: 'Posta Rosada', us: 'Bottom Round', es: 'Contra' },
+        'Asado de Tira': { br: 'Costela', cl: 'Asado de Tira', us: 'Short Ribs', es: 'Costillas en Tiras' },
+        'Costilla': { br: 'Costela', cl: 'Costillar', us: 'Ribs', es: 'Costillas' },
+        'Osobuco': { br: 'Músculo', cl: 'Osobuco', us: 'Shin / Shank', es: 'Morcillo' },
+        'Aguja': { br: 'Acém', cl: 'Tapapecho', us: 'Chuck', es: 'Aguja' },
+        'Paleta': { br: 'Paleta', cl: 'Posta Paleta', us: 'Shoulder Clod', es: 'Espaldilla' },
+        'Pecho': { br: 'Peito', cl: 'Pecho', us: 'Brisket', es: 'Pecho' },
+        'Falda': { br: 'Peito', cl: 'Plateada', us: 'Plate', es: 'Falda Baja' },
+        'Matambre': { br: 'Fraldinha', cl: 'Malaya', us: 'Rose Meat / Flank', es: 'Falda Exterior' },
+        'Marucha': { br: 'Acém', cl: 'Tapapecho', us: 'Chuck Tender', es: 'Aguja Fina' },
+        'T-Bone': { br: 'Bisteca', cl: 'Chuleta', us: 'T-Bone Steak', es: 'Chuletón' },
+        'Tapa de Asado': { br: 'Cupim', cl: 'Sobrecostilla', us: 'Rib Cap / Spinalis', es: 'Tapa de Costilla' },
       }
     },
     us: {
       name: "🇺🇸 USA",
       cuts: {
-        'Tenderloin': { br: 'Filé Mignon', cl: 'Filete', ar: 'Lomo' },
-        'Sirloin Cap / Rump Cap': { br: 'Picanha', cl: 'Punta de Ganso', ar: 'Tapa de Cuadril' },
-        'Strip Loin / NY Strip': { br: 'Contrafilé', cl: 'Lomo Vetado', ar: 'Bife de Chorizo' },
-        'Ribeye': { br: 'Ancho', cl: 'Lomo Vetado', ar: 'Bife Ancho / Ojo de Bife' },
-        'Ribeye Steak': { br: 'Ancho', cl: 'Lomo Vetado', ar: 'Ojo de Bife' },
-        'Top Sirloin': { br: 'Alcatra', cl: 'Lomo Liso', ar: 'Cuadril' },
-        'Bottom Sirloin / Tri-tip': { br: 'Maminha', cl: 'Punta de Picana', ar: 'Colita de Cuadril' },
-        'Flank Steak': { br: 'Fraldinha', cl: 'Entraña', ar: 'Vacío' },
-        'Skirt Steak': { br: 'Aba de Filé', cl: 'Entraña Fina', ar: 'Entraña / Entraña Fina' },
-        'Bottom Round': { br: 'Coxão Mole', cl: 'Posta Rosada', ar: 'Bola de Lomo / Nalga' },
-        'Top Round': { br: 'Coxão Duro', cl: 'Posta Negra', ar: 'Cuadrada' },
-        'Eye of Round': { br: 'Lagarto', cl: 'Posta Negra', ar: 'Peceto' },
-        'Knuckle / Sirloin Tip': { br: 'Patinho', cl: 'Posta Rosada', ar: 'Cuadrada' },
-        'Short Ribs': { br: 'Costela', cl: 'Asado de Tira', ar: 'Asado de Tira' },
-        'Ribs': { br: 'Costela', cl: 'Costillar', ar: 'Costilla' },
-        'Shin / Shank': { br: 'Músculo', cl: 'Osobuco', ar: 'Osobuco' },
-        'Chuck': { br: 'Acém', cl: 'Tapapecho', ar: 'Aguja' },
-        'Chuck Eye Roll': { br: 'Acém', cl: 'Huachalomo', ar: 'Chingolo' },
-        'Shoulder Clod': { br: 'Paleta', cl: 'Posta Paleta', ar: 'Paleta' },
-        'Brisket': { br: 'Peito', cl: 'Pecho', ar: 'Pecho' },
-        'Plate': { br: 'Peito', cl: 'Plateada', ar: 'Falda' },
-        'T-Bone Steak': { br: 'Bisteca', cl: 'Chuleta', ar: 'T-Bone' },
-        'Porterhouse': { br: 'Bisteca', cl: 'Chuleta', ar: 'T-Bone' },
-        'Rib Cap / Spinalis': { br: 'Cupim', cl: 'Sobrecostilla', ar: 'Tapa de Asado' },
-        'Rose Meat': { br: 'Fraldinha', cl: 'Malaya', ar: 'Matambre' },
-        'Hump (Zebu)': { br: 'Cupim', cl: 'Sobrecostilla', ar: 'Cupim' },
+        'Tenderloin': { br: 'Filé Mignon', cl: 'Filete', ar: 'Lomo', es: 'Solomillo' },
+        'Sirloin Cap / Rump Cap': { br: 'Picanha', cl: 'Punta de Ganso', ar: 'Tapa de Cuadril', es: 'Rabillo de Cadera' },
+        'Strip Loin / NY Strip': { br: 'Contrafilé', cl: 'Lomo Vetado', ar: 'Bife de Chorizo', es: 'Lomo Bajo' },
+        'Ribeye': { br: 'Ancho', cl: 'Lomo Vetado', ar: 'Bife Ancho / Ojo de Bife', es: 'Lomo Alto' },
+        'Ribeye Steak': { br: 'Ancho', cl: 'Lomo Vetado', ar: 'Ojo de Bife', es: 'Lomo Alto' },
+        'Top Sirloin': { br: 'Alcatra', cl: 'Lomo Liso', ar: 'Cuadril', es: 'Cadera' },
+        'Bottom Sirloin / Tri-tip': { br: 'Maminha', cl: 'Punta de Picana', ar: 'Colita de Cuadril', es: 'Contrafaldilla' },
+        'Flank Steak': { br: 'Fraldinha', cl: 'Entraña', ar: 'Vacío', es: 'Falda' },
+        'Skirt Steak': { br: 'Aba de Filé', cl: 'Entraña Fina', ar: 'Entraña / Entraña Fina', es: 'Entraña' },
+        'Bottom Round': { br: 'Coxão Mole', cl: 'Posta Rosada', ar: 'Bola de Lomo / Nalga', es: 'Contra' },
+        'Top Round': { br: 'Coxão Duro', cl: 'Posta Negra', ar: 'Cuadrada', es: 'Tapa' },
+        'Eye of Round': { br: 'Lagarto', cl: 'Posta Negra', ar: 'Peceto', es: 'Redondo' },
+        'Knuckle / Sirloin Tip': { br: 'Patinho', cl: 'Posta Rosada', ar: 'Cuadrada', es: 'Babilla' },
+        'Short Ribs': { br: 'Costela', cl: 'Asado de Tira', ar: 'Asado de Tira', es: 'Costillas Cortas' },
+        'Ribs': { br: 'Costela', cl: 'Costillar', ar: 'Costilla', es: 'Costillas' },
+        'Shin / Shank': { br: 'Músculo', cl: 'Osobuco', ar: 'Osobuco', es: 'Morcillo' },
+        'Chuck': { br: 'Acém', cl: 'Tapapecho', ar: 'Aguja', es: 'Aguja' },
+        'Chuck Eye Roll': { br: 'Acém', cl: 'Huachalomo', ar: 'Chingolo', es: 'Aguja Interior' },
+        'Shoulder Clod': { br: 'Paleta', cl: 'Posta Paleta', ar: 'Paleta', es: 'Espaldilla' },
+        'Brisket': { br: 'Peito', cl: 'Pecho', ar: 'Pecho', es: 'Pecho' },
+        'Plate': { br: 'Peito', cl: 'Plateada', ar: 'Falda', es: 'Pecho Bajo / Falda' },
+        'T-Bone Steak': { br: 'Bisteca', cl: 'Chuleta', ar: 'T-Bone', es: 'Chuletón' },
+        'Porterhouse': { br: 'Bisteca', cl: 'Chuleta', ar: 'T-Bone', es: 'Chuletón' },
+        'Rib Cap / Spinalis': { br: 'Cupim', cl: 'Sobrecostilla', ar: 'Tapa de Asado', es: 'Tapa de Costilla' },
+        'Rose Meat': { br: 'Fraldinha', cl: 'Malaya', ar: 'Matambre', es: 'Falda Exterior' },
+        'Hump (Zebu)': { br: 'Cupim', cl: 'Sobrecostilla', ar: 'Cupim', es: 'Sin equivalente (res cebú)' },
+      }
+    },
+    es: {
+      name: "🇪🇸 España",
+      cuts: {
+        'Solomillo':         { br: 'Filé Mignon',  cl: 'Filete',         ar: 'Lomo',             us: 'Tenderloin' },
+        'Lomo Alto':         { br: 'Ancho',         cl: 'Lomo Vetado',    ar: 'Bife Ancho',        us: 'Ribeye' },
+        'Lomo Bajo':         { br: 'Contrafilé',    cl: 'Lomo Vetado',    ar: 'Bife de Chorizo',   us: 'Strip Loin / NY Strip' },
+        'Entrecot':          { br: 'Contrafilé',    cl: 'Lomo Vetado',    ar: 'Bife de Chorizo',   us: 'Strip Loin / NY Strip' },
+        'Chuletón':          { br: 'Bisteca',       cl: 'Chuleta',        ar: 'T-Bone',            us: 'T-Bone Steak' },
+        'Cadera':            { br: 'Alcatra',       cl: 'Lomo Liso',      ar: 'Cuadril',           us: 'Top Sirloin' },
+        'Rabillo de Cadera': { br: 'Picanha',       cl: 'Punta de Ganso', ar: 'Tapa de Cuadril',   us: 'Sirloin Cap / Rump Cap' },
+        'Contrafaldilla':    { br: 'Maminha',       cl: 'Punta de Picana', ar: 'Colita de Cuadril', us: 'Bottom Sirloin / Tri-tip' },
+        'Babilla':           { br: 'Patinho',       cl: 'Posta Rosada',   ar: 'Cuadrada',          us: 'Knuckle / Sirloin Tip' },
+        'Tapa':              { br: 'Coxão Duro',    cl: 'Posta Negra',    ar: 'Cuadrada',          us: 'Top Round' },
+        'Redondo':           { br: 'Lagarto',       cl: 'Posta Negra',    ar: 'Peceto',            us: 'Eye of Round' },
+        'Contra':            { br: 'Coxão Mole',    cl: 'Posta Rosada',   ar: 'Nalga',             us: 'Bottom Round' },
+        'Falda':             { br: 'Fraldinha',     cl: 'Entraña',        ar: 'Vacío',             us: 'Flank Steak' },
+        'Entraña':           { br: 'Aba de Filé',   cl: 'Entraña Fina',   ar: 'Entraña Fina',      us: 'Skirt Steak' },
+        'Aguja':             { br: 'Acém',          cl: 'Tapapecho',      ar: 'Aguja',             us: 'Chuck' },
+        'Espaldilla':        { br: 'Paleta',        cl: 'Posta Paleta',   ar: 'Paleta',            us: 'Shoulder Clod' },
+        'Morcillo':          { br: 'Músculo',       cl: 'Osobuco',        ar: 'Osobuco',           us: 'Shin / Shank' },
+        'Costillas':         { br: 'Costela',       cl: 'Costillar',      ar: 'Costilla',          us: 'Ribs' },
+        'Pecho':             { br: 'Peito',         cl: 'Pecho',          ar: 'Pecho',             us: 'Brisket' },
+        'Tapa de Costilla':  { br: 'Costela',       cl: 'Sobrecostilla',  ar: 'Tapa de Asado',     us: 'Rib Cap / Spinalis' },
       }
     }
   };
@@ -158,13 +183,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // WhatsApp share functionality
   const whatsappBtn = document.getElementById('share-whatsapp');
-  
+
   // Country names without emojis
   const countryNamesClean = {
     br: 'Brasil',
     cl: 'Chile',
     ar: 'Argentina',
-    us: 'USA'
+    us: 'USA',
+    es: 'España'
   };
 
   whatsappBtn.addEventListener('click', () => {
@@ -177,25 +203,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const equivalents = meatData[selectedCountry].cuts[selectedCut];
-    
+
     // Build message without emojis
     let message = `*Traductor de Cortes de Carne*\n\n`;
     message += `*País de origen:* ${countryNamesClean[selectedCountry]}\n`;
     message += `*Corte:* ${selectedCut}\n\n`;
     message += `*Equivalencias:*\n`;
-    
+
     for (const countryCode in equivalents) {
       const countryName = countryNamesClean[countryCode];
       const equivalentCut = equivalents[countryCode];
       message += `• ${countryName}: ${equivalentCut}\n`;
     }
-    
+
     message += `\nhttps://traductordecortes.vercel.app`;
 
     // Encode message for URL
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
-    
+
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
   });
