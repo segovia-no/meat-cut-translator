@@ -1,11 +1,11 @@
 # 🥩 Traductor de Cortes de Carne
 
-Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina y Estados Unidos. Con más de 90 cortes catalogados.
+Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina, España y Estados Unidos. Con más de 90 cortes catalogados.
 
 ## 🌟 Características
 
 - **90+ Cortes**: Base de datos completa con más de 90 cortes de carne diferentes
-- **4 Países**: Compara cortes entre Brasil, Chile, Argentina y USA
+- **5 Países**: Compara cortes entre Brasil, Chile, Argentina, España y USA
 - **Compartir en WhatsApp**: Comparte las equivalencias directamente en WhatsApp
 - **Rápido y ligero**: Sin dependencias externas, 100% vanilla JavaScript
 - **SEO optimizado**: Meta tags, Open Graph, Twitter Cards, y JSON-LD
@@ -48,7 +48,9 @@ meat-translator/
 │       └── app.js      # Lógica de traducción
 ```
 
-## 🥩 Cortes20 cortes)
+## 🥩 Cortes
+
+### Brasil (20 cortes)
 Picanha, Filé Mignon, Contrafilé, Fraldinha, Maminha, Alcatra, Coxão Mole, Coxão Duro, Lagarto, Patinho, Músculo, Acém, Paleta, Costela, Cupim, Peito, Aba de Filé, Ancho, Bisteca, Baby Beef
 
 ### Chile (20 cortes)
@@ -57,10 +59,11 @@ Punta de Ganso, Filete, Lomo Vetado, Lomo Liso, Entraña, Entraña Fina, Punta d
 ### Argentina (25 cortes)
 Tapa de Cuadril, Lomo, Bife de Chorizo, Bife Ancho, Ojo de Bife, Vacío, Entraña, Entraña Fina, Colita de Cuadril, Cuadril, Bola de Lomo, Cuadrada, Peceto, Nalga, Asado de Tira, Costilla, Osobuco, Aguja, Paleta, Pecho, Falda, Matambre, Marucha, T-Bone, Tapa de Asado
 
+### España (20 cortes)
+Solomillo, Lomo Alto, Lomo Bajo, Entrecot, Chuletón, Cadera, Rabillo de Cadera, Contrafaldilla, Babilla, Tapa, Redondo, Contra, Falda, Entraña, Aguja, Espaldilla, Morcillo, Costillas, Pecho, Tapa de Costilla
+
 ### USA (26 cortes)
-Tenderloin, Sirloin Cap, Strip Loin, NY Strip, Ribeye, Ribeye Steak, Top Sirloin, Bottom Sirloin, Tri-tip, Flank Steak, Skirt Steak, Bottom Round, Top Round, Eye of Round, Knuckle, Sirloin Tip, Short Ribs, Ribs, Shin, Shank, Chuck, Chuck Eye Roll, Shoulder Clod, Brisket, Plate, T-Bone Steak, Porterhouse, Rib Cap, Spinalis, Rose Meat, Humptriploin
-- Top Sirloin
-- Tenderloin
+Tenderloin, Sirloin Cap, Strip Loin, Ribeye, Ribeye Steak, Top Sirloin, Bottom Sirloin, Flank Steak, Skirt Steak, Bottom Round, Top Round, Eye of Round, Knuckle, Short Ribs, Ribs, Shin, Chuck, Chuck Eye Roll, Shoulder Clod, Brisket, Plate, T-Bone Steak, Porterhouse, Rib Cap, Rose Meat, Hump (Zebu)
 
 ## 🛠 Tecnologías
 
