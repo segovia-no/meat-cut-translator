@@ -1,10 +1,10 @@
 # 🥩 Traductor de Cortes de Carne
 
-Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina, España y Estados Unidos. Con más de 90 cortes catalogados.
+Una aplicación web simple y elegante para comparar y traducir nombres de cortes de carne entre Brasil, Chile, Argentina, España y Estados Unidos. Con más de 110 cortes catalogados.
 
 ## 🌟 Características
 
-- **90+ Cortes**: Base de datos completa con más de 90 cortes de carne diferentes
+- **110+ Cortes**: Base de datos completa con más de 110 cortes de carne diferentes
 - **5 Países**: Compara cortes entre Brasil, Chile, Argentina, España y USA
 - **Compartir en WhatsApp**: Comparte las equivalencias directamente en WhatsApp
 - **Rápido y ligero**: Sin dependencias externas, 100% vanilla JavaScript
@@ -53,8 +53,8 @@ meat-translator/
 ### Brasil (20 cortes)
 Picanha, Filé Mignon, Contrafilé, Fraldinha, Maminha, Alcatra, Coxão Mole, Coxão Duro, Lagarto, Patinho, Músculo, Acém, Paleta, Costela, Cupim, Peito, Aba de Filé, Ancho, Bisteca, Baby Beef
 
-### Chile (20 cortes)
-Punta de Ganso, Filete, Lomo Vetado, Lomo Liso, Entraña, Entraña Fina, Punta de Picana, Posta Rosada, Posta Negra, Posta Paleta, Asado de Tira, Osobuco, Tapapecho, Costillar, Pecho, Plateada, Chuleta, Huachalomo, Sobrecostilla, Malaya
+### Chile (23 cortes)
+Punta de Ganso, Filete, Lomo Vetado, Lomo Liso, Entraña, Entraña Fina, Punta de Picana, Posta Rosada, Posta Negra, Choclillo, Posta Paleta, Asado de Tira, Osobuco, Tapapecho, Costillar, Pecho, Plateada, Chuleta, Huachalomo, Sobrecostilla, Malaya, Abastero, Punta Paleta, Carnicero
 
 ### Argentina (25 cortes)
 Tapa de Cuadril, Lomo, Bife de Chorizo, Bife Ancho, Ojo de Bife, Vacío, Entraña, Entraña Fina, Colita de Cuadril, Cuadril, Bola de Lomo, Cuadrada, Peceto, Nalga, Asado de Tira, Costilla, Osobuco, Aguja, Paleta, Pecho, Falda, Matambre, Marucha, T-Bone, Tapa de Asado
